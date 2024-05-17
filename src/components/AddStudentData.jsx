@@ -34,7 +34,7 @@ const AddStudentData = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8737/api/add-student",
+        "https://studentdata-backend.onrender.com/api/add-student",
         formData
       );
       alert(response.data.message);

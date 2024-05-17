@@ -10,7 +10,7 @@ const ShowDataTable = () => {
     const fetchStudents = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8737/api/get-students"
+          "https://studentdata-backend.onrender.com/api/get-students"
         );
 
         setStudents(response.data);
