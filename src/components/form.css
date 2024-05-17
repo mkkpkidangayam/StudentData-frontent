@@ -1,0 +1,49 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+label input[type="text"] {
+  display: block;
+  width: calc(100% - 20px);
+  margin-top: 5px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #171b1e;
+}
+
+.nameinput,
+.dobDay,
+.dobMonth,
+.dobYear {
+  width: 20%;
+  border-width: 2px;
+  margin-left: 4px;
+}
+
+
